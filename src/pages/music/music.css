@@ -1,4 +1,9 @@
-p {
+.music {
+  position: relative;
+  display: block;
+  width: auto;
+  height: inherit;
+  top: 200px;
   text-align: center;
   color: blue;
   font-size: 56px;

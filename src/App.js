@@ -17,8 +17,8 @@ function App() {
           <Header />
 
           <Routes>
-            <Route exact path="/" element={Main} />
-            <Route path="/music" element={Music} />
+            <Route exact path="/" element={<Main />} />
+            <Route path="/music" element={<Music />} />
           </Routes>
 
           <Footer />
