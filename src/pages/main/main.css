@@ -1,0 +1,10 @@
+.main {
+  position: relative;
+  width: auto;
+  height: inherit;
+  text-align: center;
+  top: 200px;
+  color: green;
+  font-size: 56px;
+  z-index: 10;
+}
