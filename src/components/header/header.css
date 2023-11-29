@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  /* position: absolute; */
   /* left: 0;
   top: 0; */
   display: flex;
@@ -30,6 +30,10 @@
 }
 
 .header_nav_item {
+  list-style: none;
+}
+
+.header_nav_item {
   font-size: 20px;
   line-height: 1;
   color: bisque;
@@ -39,7 +43,7 @@
   margin-left: 20px;
 }
 
-.header_menu_button {
+/* .header_menu_button {
   display: none;
 }
 
@@ -92,4 +96,4 @@
     padding: 0;
     border: o;
   }
-}
+} */

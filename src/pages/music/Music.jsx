@@ -1,11 +1,19 @@
 import React from "react";
 import "./music.css";
 
+import { Videka } from "../../components/videka/videka";
+
 const Music = () => {
   return (
     <>
       <div className="music">
-        <p>Это музыкальная страница</p>
+        <div className="head">
+          <p>Это музыкальная страница</p>
+        </div>
+
+        <div>
+          <Videka />
+        </div>
       </div>
     </>
   );

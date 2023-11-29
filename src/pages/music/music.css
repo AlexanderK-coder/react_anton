@@ -1,5 +1,21 @@
-p {
+.music {
+  position: relative;
+  top: 500px;
+  margin: 100px auto 100px auto;
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
   text-align: center;
   color: blue;
-  font-size: 56px;
+  font-size: 48px;
+}
+
+.element {
+  border: 2px red solid;
+  text-align: center;
 }
