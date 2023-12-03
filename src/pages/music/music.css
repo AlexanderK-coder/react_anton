@@ -1,8 +1,8 @@
 .music {
-  position: relative;
-  top: 500px;
-  margin: 100px auto 100px auto;
-  max-width: 400px;
+  /* position: relative; */
+  top: 100px;
+  /* margin: auto; */
+  max-width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
 }
 
 .head {
+  margin: 50px auto;
   text-align: center;
   color: blue;
   font-size: 48px;
