@@ -35,9 +35,9 @@
   font-size: 40px;
   line-height: 1;
 }
-
-Link {
-  color: antiquewhite;
+.no-underline {
+  text-decoration-line: none;
+  /* color: blue; */
 }
 
 .header_nav_item:nth-child(n + 2) {
