@@ -28,16 +28,16 @@
 .header_nav_list {
   display: flex;
   list-style: none;
+  text-decoration: none;
 }
 
 .header_nav_item {
-  list-style: none;
-}
-
-.header_nav_item {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1;
-  color: bisque;
+}
+
+Link {
+  color: antiquewhite;
 }
 
 .header_nav_item:nth-child(n + 2) {

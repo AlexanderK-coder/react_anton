@@ -6,7 +6,7 @@ import Main from "../../pages/main/Main.jsx";
 import Music from "../../pages/music/Music.jsx";
 import { Routes, Route } from "react-router-dom";
 
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setOpen] = useState();
@@ -16,10 +16,10 @@ const Header = () => {
       <nav className={`header_nav ${isOpen ? "active" : ""}`}>
         <ul className="header_nav_list">
           <li className="header_nav_item">
-            <NavLink to="/">Главная</NavLink>
+            <Link to="/">Главная</Link>
           </li>
           <li className="header_nav_item">
-            <NavLink to="/music"> Музыка</NavLink>
+            <Link to="/music"> Музыка</Link>
           </li>
         </ul>
       </nav>
