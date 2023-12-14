@@ -11,7 +11,7 @@
 
 .head {
   margin: 50px auto;
-  text-align: center;
+  /* text-align: center; */
   color: blue;
   font-size: 48px;
 }
