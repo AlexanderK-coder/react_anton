@@ -1,7 +1,7 @@
 import React from "react";
 import "./main.css";
 
-const Main = () => {
+export const Main = () => {
   return (
     <>
       <div className="main">
@@ -10,5 +10,3 @@ const Main = () => {
     </>
   );
 };
-
-export default Main;

@@ -1,9 +1,9 @@
 import React from "react";
-import "./music.css";
+// import "./music.css";
 
 import { Videka } from "../../components/videka/videka";
 
-const Music = () => {
+export const Music = () => {
   return (
     <>
       <div className="music">
@@ -18,5 +18,3 @@ const Music = () => {
     </>
   );
 };
-
-export default Music;

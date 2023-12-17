@@ -1,5 +1,5 @@
 .main {
-  position: relative;
+  /* position: relative; */
   top: 200px;
   width: 100vw;
   height: inherit;
@@ -7,5 +7,5 @@
 
   color: green;
   font-size: 56px;
-  z-index: 10;
+  /* z-index: 10; */
 }
