@@ -15,3 +15,13 @@ body {
   height: 100vh;
   padding: 0px;
 }
+
+.flexelements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article {
+  flex-grow: 1;
+}
