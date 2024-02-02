@@ -7,7 +7,7 @@ import Main from "./pages/main/Main";
 import Music from "./pages/music/Music";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-import "./index.css";
+import "./index.scss";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./music.css";
+import "./music.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Card from "react-bootstrap/Card";
@@ -14,8 +14,8 @@ const Music = () => {
       <div className="section">
         <div className="cont">
           <Row xs={1} sm={2} md={3} lg={4} xl={5} className="g-4">
-            {Array.from({ length: 6 }).map((idx) => (
-              <Col key={idx}>
+            {Array.from({ length: 6 }).map(() => (
+              <Col>
                 <Card>
                   <Card.Img variant="top" src="holder.js/100px160" />
                   <Card.Body>
